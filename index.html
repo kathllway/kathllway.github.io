@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Kathryn's Amazing Website</title>
+
+        <style>
+            body {
+                background: rgb(148, 182, 182);
+                color: rgb(252, 253, 253);
+                padding: 10px;
+                font-family: garamond, times new roman;
+                text-align: center;
+                
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+                color: white;
+            }
+        
+            /* navigation menu */
+            nav {
+                background: rgb(148, 182, 182);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 15px;
+                text-align: center;
+                border-radius: 15px;
+            }
+            nav h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            nav ul {
+                list-style-image: none;
+                list-style-type: none;
+            }
+            nav li {
+                display: inline-block;
+                margin: 0;
+                padding: 0px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                padding-top: 15px;
+                padding-right: 10px;
+                padding-bottom: 15px;
+                padding-left: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+                height: 250px;
+                border: 5px solid white;
+        
+            }
+            .content {
+                flex: 1;
+                padding: 10px;
+                color: white;
+                margin: 5px;
+                background:rgb(148, 182, 182)
+            }
+            .content p {
+                margin-top: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+            h2, h3 {
+                margin: 10px;
+            }
+            h1 {
+                text-shadow: 2px, 2px, rgb(150, 147, 147);
+                font-family: helvetica, arial;
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            .interests {
+                background:rgb(148, 182, 182);
+                padding: 10px;               
+            }
+            .interests ul {
+                font-family: helvetica, arial;
+                color: white;
+                list-style-type: none;
+                padding: 5px;
+                margin: 5px;
+            }
+            .interests li {
+                margin: 5px;
+            }
+            
+
+        </style>
+    </head>
+
+    <body>
+        <div id="all-contents">
+            <nav>
+                <h1>Kathryn's Glorious Website</h1>
+                <ul>
+                    <li>
+                        <a href="index.html">Home |</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <main>
+                <div class="sidebar">
+                    <img src="https://i.ibb.co/djxb9gS/Screenshot-20210618-095230-Instagram.jpg" alt="Picture of Kathryn" 
+                    class="center" style="width:200px;height:250px;">
+                </div>
+
+                <div class="content">
+                    <h2>Kathryn Holloway</h2>
+                    <p>Student at Operation Spark</p>
+                    <div class="interests">
+                        <h3><u>Interests:</u></h3>
+                        <ul>
+                            <li>Painting</li>
+                            <li>Exploring</li>
+                            <li>Coding</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
