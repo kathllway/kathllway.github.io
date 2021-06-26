@@ -1,6 +1,6 @@
 body {
-    background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
+    background: rgb(148, 182, 182);
+    color: rgb(252, 253, 253);
     padding: 10px;
     font-family: arial;
 }
@@ -13,36 +13,44 @@ header {
     margin: auto;
 }
 
-/* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
-    margin: 0 auto;
-    display: flex;
-    padding: 10px;
-}
-nav header {
-    display: flex;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    flex: 1;
-}
-nav ul {
-    list-style-image: none;
-}
-nav li {
-    display: inline-block;
-    padding: 0 10px;
-}
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
+                background: rgb(148, 182, 182);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 15px;
+                text-align: center;
+                border-radius: 15px;
+            }
+            nav h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            nav ul {
+                list-style-image: none;
+                list-style-type: none;
+            }
+            nav li {
+                display: inline-block;
+                margin: 0;
+                padding: 0px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+
 
 /* main container area beneath menu */
 main {
     background: rgb(245, 238, 219);
     display: flex;
     padding:inherit;
+    color: gray;
 }
 [class=content] {
     flex: 1;

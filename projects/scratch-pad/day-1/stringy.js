@@ -73,6 +73,7 @@ function toDashCase(string) {
     
     //toDashCase using replace()
     
+    //Regex method:
     //let stringWithReplace = string.replace(/ /g , '-');
     //return stringWithReplace.toLowerCase();
 }
@@ -236,9 +237,9 @@ function sortAscending(stringOne, stringTwo) {
   //If statement to compare if stringOne to the highestValue variable. If so, return 1.
   //else, return -1.
   if (stringOne === highestValue){
-      return 1;
-  } else {
       return -1;
+  } else {
+      return 1;
   }
 
  
@@ -274,9 +275,9 @@ function sortDescending(stringOne, stringTwo) {
  }
  //If statement to return if stringOne is less than the lowestValue, return 1. Else, return -1.
  if (stringOne === lowestValue){
-     return 1;
- } else {
      return -1;
+ } else {
+     return 1;
  }
 
 }
