@@ -49,3 +49,55 @@
   }
 } 
 fizzBuzz()
+
+
+/* 
+     The FizzBuzz exercise is made up of block statements. Block statements are used to group
+     statements by { } curly brackets. The most common block statements are those used with
+     while, for, and if statements. Condtional statements (if, else if, and else) as shown above
+     includes a conditional statement that if true, will execute the statements in the code block.
+     It will continue down the conditional statements until it finds one that evaluates to true. If
+     it doesn't. it will execute the default (in switch), and else in if-else if statements.
+
+     If you have a series of if statements, they are all checked even if a match has been found!
+
+*/
+
+//.  FALSEY VALUES :
+/*. 
+     These are values that evaluate to false:
+     -NULL
+     -UNDEFINED
+     -NaN
+     -"" EMPTY STRING
+     -0
+     -FALSE
+     
+     ALL OTHER VALUES ARE TRUTHY VALUES.
+*/
+
+//.  SWITCH STATEMENTS:
+/*  
+     Switch statements start with a variable called switch value and that value is what
+     each case is judged against to see if they match. If they are a match, the code in the case 
+     runs. If there is no match, the default case will run. The difference between if...else and
+     switch statements is that 1. you have that default incase there is no match and 2. if the
+     match is found, that case runs and the break statement stops the switch statement from running.
+*/ 
+     var animalSounds = "frog";
+     
+     switch (animalSounds) {
+         
+         case "dog":
+           console.log("woof woof");
+           break;
+         case "cat":
+           console.log("meow");
+           break;
+         case "frog":
+           console.log("ribbit");
+           break;
+         default:
+           console.log("That's not an animal!");
+           break;
+     }
